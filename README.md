@@ -25,7 +25,7 @@ git clone https://github.com/Deepika2002/WDGET2024111
   <version>7.5.0</version>
   <scope>test</scope>
 </dependency>
-```xml
+```
 
 Download the appropriate ChromeDriver executable for your operating system and place it in the project directory or set the path to it in the code.
 
