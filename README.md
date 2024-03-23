@@ -19,19 +19,22 @@ git clone https://github.com/Deepika2002/WDGET2024111
   <artifactId>selenium-java</artifactId>
   <version>3.141.5</version>
 </dependency>
+<dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>7.5.0</version>
+  <scope>test</scope>
+</dependency>
+```xml
 
-## Setup Instructions
+Download the appropriate ChromeDriver executable for your operating system and place it in the project directory or set the path to it in the code.
 
-### 1. Download ChromeDriver:
-Download the appropriate ChromeDriver executable for your operating system from [ChromeDriver Downloads](https://sites.google.com/chromium.org/driver/). Place the ChromeDriver executable in the project directory.
+### **Run the Test:**
+Open the `WebTableTest.java` file in your IDE.
+Run the main method in `WebTableTest.java`.
+The test will launch a Chrome browser, navigate to a webpage with a web table, trace the table, and print its data to the console.
 
-### 2. Run the Test:
-1. Open the `WebTableTest.java` file in your IDE.
-2. Run the `main` method in `WebTableTest.java`.
-3. The test will launch a Chrome browser, navigate to a webpage with a web table, trace the table, and print its data to the console.
-
-## Project Structure
-
+## **Project Structure**
 - `src/test/java`: Contains the Java test source code.
   - `WebTableTest.java`: Main test class that traces the web table and retrieves its data.
 - `chromedriver`: ChromeDriver executable (downloaded separately).
