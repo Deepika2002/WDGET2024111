@@ -5,7 +5,7 @@ This project demonstrates how to use Selenium WebDriver to trace a web table on 
 
 ## Setup Instructions
 1. **Clone the Repository**: Clone this repository to your local machine using Git:
-git clone htpps://github.com/Deepika2002/WDGET2024111
+git clone https://github.com/Deepika2002/WDGET2024111/tree/main
 
 2. **Set Up Dependencies**:
 - Ensure you have the Java Development Kit (JDK) installed on your system.
