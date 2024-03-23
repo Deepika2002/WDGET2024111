@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-23T20:17:36 IST" name="Default suite" finished-at="2024-03-23T20:18:08 IST" duration-ms="32307">
+    <groups>
+    </groups>
+    <test started-at="2024-03-23T20:17:36 IST" name="Default test" finished-at="2024-03-23T20:18:08 IST" duration-ms="32307">
+      <class name="webtable.webtabletest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:webtable.webtabletest@316bcf94]" started-at="2024-03-23T20:17:36 IST" name="setUp" finished-at="2024-03-23T20:18:07 IST" duration-ms="31244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="printAllTableValues()[pri:1, instance:webtable.webtabletest@316bcf94]" started-at="2024-03-23T20:18:07 IST" name="printAllTableValues" finished-at="2024-03-23T20:18:08 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAllTableValues -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webtable.webtabletest@316bcf94]" started-at="2024-03-23T20:18:08 IST" name="tearDown" finished-at="2024-03-23T20:18:08 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- webtable.webtabletest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
